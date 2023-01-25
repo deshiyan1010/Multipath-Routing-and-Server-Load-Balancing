@@ -1,0 +1,1 @@
+/home/deshiyan/miniconda3/bin/python flask_server.py  $1 $2 $3

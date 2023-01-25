@@ -1,0 +1,4 @@
+sudo systemd-run --scope -p MemoryLimit=1000M -p CPUQuota=10% ./run.sh
+ps -o %cpu,%mem,cmd -p 360261
+ryu-manager simple_switch.py --observe-link
+py topo.py
